@@ -51,7 +51,6 @@ background:#000;
 }
 
 
-
 .fondo-logo{
 
 width:100%;
@@ -65,7 +64,6 @@ object-position:center 7%;
 display:block;
 
 }
-
 
 
 .logo{
@@ -83,8 +81,6 @@ transform:translate(-50%,-50%);
 z-index:2;
 
 }
-
-
 
 /*=====================================
         RECURSOS 1-4
@@ -106,7 +102,6 @@ overflow:visible;
 }
 
 
-
 .recursos-cuatro img{
 
 width:25%;
@@ -118,7 +113,6 @@ border-radius:18px;
 }
 
 
-
 .recursos-cuatro img:nth-child(1),
 .recursos-cuatro img:nth-child(3){
 
@@ -127,16 +121,12 @@ transform:translateY(-14px);
 }
 
 
-
 .recursos-cuatro img:nth-child(2),
 .recursos-cuatro img:nth-child(4){
 
 transform:translateY(14px);
 
 }
-
-
-
 
 
 /*=====================================
@@ -153,42 +143,34 @@ display:block;
 }
 
 
-
-
-
 /*=====================================
         TAMAÑOS ESPECIALES
 ======================================*/
-
 
 /* RECURSO11 Y RECURSO16 */
 
 .imagen-r11{
 
-width:40%;
+    width:60%;
 
-display:block;
+    display:block;
 
-margin:auto;
+    margin:auto;
 
 }
 
 
-
-/* RECURSO17 */
+/* RECURSO12 Y RECURSO17 */
 
 .imagen-r12{
 
-width:35%;
+    width:60%;
 
-display:block;
+    display:block;
 
-margin:auto;
+    margin:auto;
 
 }
-
-
-
 
 
 /*=====================================
@@ -198,15 +180,15 @@ margin:auto;
 
 .bloque-punteado{
 
-position:relative;
+    position:relative;
 
-width:100%;
+    width:100%;
 
-display:flex;
+    display:flex;
 
-justify-content:center;
+    justify-content:center;
 
-align-items:center;
+    align-items:center;
 
 }
 
@@ -214,42 +196,32 @@ align-items:center;
 
 .fondo-punteado{
 
-width:75%;
+    width:75%;
 
-display:block;
+    display:block;
 
 }
 
 
-
-/* RECURSO12 DENTRO DE SU ZONA */
 
 .bloque-punteado .imagen-r12{
 
-position:absolute;
+    position:absolute;
 
-width:50%;
+    width:45%;
 
-left:50%;
+    left:50%;
 
-top:50%;
+    top:50%;
 
-transform:translate(-50%,-50%);
-
-z-index:2;
+    transform:translate(-50%,-50%);
 
 }
-
-
-
-
-
 
 
 /*=====================================
         EVENTO
 ======================================*/
-
 
 .evento{
 
@@ -260,7 +232,6 @@ width:100%;
 }
 
 
-
 .evento-fondo{
 
 width:100%;
@@ -268,7 +239,6 @@ width:100%;
 display:block;
 
 }
-
 
 
 .evento-logo{
@@ -285,8 +255,6 @@ transform:translate(-50%,-50%);
 
 }
 
-
-
 .evento-fecha{
 
 position:absolute;
@@ -302,18 +270,11 @@ transform:translateX(-50%);
 }
 
 
-
-
-
-
-
 /*=====================================
         CELULAR
 ======================================*/
 
-
 @media(max-width:768px){
-
 
 
 .logo{
@@ -323,13 +284,11 @@ width:55%;
 }
 
 
-
 .evento-logo{
 
 width:10%;
 
 }
-
 
 
 .evento-fecha{
@@ -339,9 +298,6 @@ width:75%;
 }
 
 
-
-/* Recurso11 y Recurso16 */
-
 .imagen-r11{
 
 width:40%;
@@ -349,25 +305,11 @@ width:40%;
 }
 
 
-
-/* Recurso17 */
-
 .imagen-r12{
 
-width:35%;
+width:30%;
 
 }
-
-
-
-/* Recurso12 dentro de zona punteada */
-
-.bloque-punteado .imagen-r12{
-
-width:60%;
-
-}
-
 
 
 }
