@@ -180,7 +180,7 @@ display:block;
 
     display:block;
 
-    margin:auto;
+    margin:40px auto 0;
 
 }
 
@@ -321,21 +321,6 @@ width:40%;
 }
 
 
-
-/* Recurso17 */
-
-.imagen-r12{
-
-width:55%;
-
-}
-
-.imagen-r17{
-
-    width:30%;
-
-}
-
 /* Recurso12 dentro de zona punteada */
 
 .bloque-punteado .imagen-r12{
@@ -343,7 +328,6 @@ width:55%;
 width:65%;
 
 }
-
 
 
 }
