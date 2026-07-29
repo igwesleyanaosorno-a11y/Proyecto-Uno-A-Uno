@@ -172,6 +172,17 @@ display:block;
 
 }
 
+/* RECURSO17 */
+
+.imagen-r17{
+
+    width:60%;
+
+    display:block;
+
+    margin:auto;
+
+}
 
 /*=====================================
         ZONA PUNTEADA
@@ -319,7 +330,11 @@ width:55%;
 
 }
 
+.imagen-r17{
 
+    width:75%;
+
+}
 
 /* Recurso12 dentro de zona punteada */
 
