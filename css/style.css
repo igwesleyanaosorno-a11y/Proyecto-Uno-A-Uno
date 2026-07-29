@@ -18,7 +18,6 @@ overflow-x:hidden;
 }
 
 
-
 .landing{
 
 width:100%;
@@ -30,9 +29,6 @@ margin:auto;
 background:#000;
 
 }
-
-
-
 
 
 /*=====================================
@@ -55,7 +51,6 @@ background:#000;
 }
 
 
-
 .fondo-logo{
 
 width:100%;
@@ -69,7 +64,6 @@ object-position:center 7%;
 display:block;
 
 }
-
 
 
 .logo{
@@ -87,12 +81,6 @@ transform:translate(-50%,-50%);
 z-index:2;
 
 }
-
-
-
-
-
-
 
 /*=====================================
         RECURSOS 1-4
@@ -114,7 +102,6 @@ overflow:visible;
 }
 
 
-
 .recursos-cuatro img{
 
 width:25%;
@@ -126,7 +113,6 @@ border-radius:18px;
 }
 
 
-
 .recursos-cuatro img:nth-child(1),
 .recursos-cuatro img:nth-child(3){
 
@@ -135,18 +121,12 @@ transform:translateY(-14px);
 }
 
 
-
 .recursos-cuatro img:nth-child(2),
 .recursos-cuatro img:nth-child(4){
 
 transform:translateY(14px);
 
 }
-
-
-
-
-
 
 
 /*=====================================
@@ -163,52 +143,39 @@ display:block;
 }
 
 
-
-
-
-
 /*=====================================
         TAMAÑOS ESPECIALES
 ======================================*/
 
-
 /* RECURSO11 Y RECURSO16 */
-
 
 .imagen-r11{
 
-width:85%;
+    width:60%;
 
-display:block;
+    display:block;
 
-margin:auto;
+    margin:auto;
 
 }
-
 
 
 /* RECURSO12 Y RECURSO17 */
 
-
 .imagen-r12{
 
-width:75%;
+    width:60%;
 
-display:block;
+    display:block;
 
-margin:auto;
+    margin:auto;
 
 }
-
-
-
-
 
 
 /*=====================================
         ZONA PUNTEADA
 ======================================*/
-
 
 .bloque-punteado{
 
@@ -217,7 +184,6 @@ position:relative;
 width:100%;
 
 }
-
 
 
 .fondo-punteado{
@@ -229,7 +195,6 @@ display:block;
 margin:auto;
 
 }
-
 
 
 .imagen-dentro{
@@ -247,16 +212,9 @@ z-index:2;
 }
 
 
-
-
-
-
-
-
 /*=====================================
         EVENTO
 ======================================*/
-
 
 .evento{
 
@@ -265,7 +223,6 @@ position:relative;
 width:100%;
 
 }
-
 
 
 .evento-fondo{
@@ -277,14 +234,13 @@ display:block;
 }
 
 
-
 .evento-logo{
 
 position:absolute;
 
 width:10%;
 
-top:50%;
+top:60%;
 
 left:50%;
 
@@ -292,13 +248,11 @@ transform:translate(-50%,-50%);
 
 }
 
-
-
 .evento-fecha{
 
 position:absolute;
 
-width:75%;
+width:90%;
 
 top:80%;
 
@@ -309,15 +263,9 @@ transform:translateX(-50%);
 }
 
 
-
-
-
-
-
 /*=====================================
         CELULAR
 ======================================*/
-
 
 @media(max-width:768px){
 
@@ -329,13 +277,11 @@ width:55%;
 }
 
 
-
 .evento-logo{
 
 width:10%;
 
 }
-
 
 
 .evento-fecha{
@@ -345,21 +291,18 @@ width:75%;
 }
 
 
-
 .imagen-r11{
 
-width:85%;
+width:40%;
 
 }
-
 
 
 .imagen-r12{
 
-width:75%;
+width:30%;
 
 }
-
 
 
 }
