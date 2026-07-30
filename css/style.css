@@ -287,14 +287,11 @@ transform:translateX(-50%);
 
 @media(max-width:768px){
 
-
 .logo{
 
 width:55%;
 
 }
-
-
 
 .evento-logo{
 
@@ -303,38 +300,9 @@ width:10%;
 }
 
 
-
 .evento-fecha{
 
 width:75%;
-
-}
-
-
-
-/* Recurso11 y Recurso16 */
-
-.imagen-r11{
-
-width:40%;
-
-}
-
-
-/* Recurso12 dentro de zona punteada */
-
-.bloque-punteado .imagen-r12{
-
-width:65%;
-
-}
-
-
-/* Recurso17 */
-
-.imagen-r17{
-
-width:65%;
 
 }
 
